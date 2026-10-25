@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rafay Food Club | Fresh Food & Special Deals</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:#101010;color:#fff;font-family:Arial,sans-serif}
+header{background:#080808;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid #333}
+.logo{color:#ff9d00;font-size:25px;font-weight:900}
+nav a{color:white;text-decoration:none;margin:8px;font-weight:bold}
+.btn{background:#ff9d00;color:#111;padding:12px 18px;border:0;border-radius:25px;font-weight:bold;text-decoration:none;display:inline-block}
+.hero{padding:65px 6%;min-height:400px;display:flex;align-items:center;background:linear-gradient(90deg,#080808 15%,#0006),url('https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1600&q=85') center/cover}
+.hero h1{font-size:clamp(38px,7vw,68px);margin:10px 0}
+.orange{color:#ff9d00}
+section{padding:42px 5%}
+h2{font-size:30px}
+.sub{color:#bbb;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#1b1b1b;border:1px solid #353535;border-radius:14px;overflow:hidden}
+.card img{width:100%;height:190px;object-fit:cover;display:block}
+.info{padding:16px}
+.info h3{margin:0 0 9px}
+.price{color:#ffb323;font-weight:bold;font-size:19px}
+.deal{border:1px solid #60400e}
+footer{text-align:center;background:#080808;padding:30px;color:#bbb}
+footer strong{color:#ff9d00}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">👨‍🍳 RAFAY <small style="color:white">FOOD CLUB</small></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#deals">Deals</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn" href="#deals">Order Now</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div>
+  <p class="orange">GOOD FOOD • GREAT MOOD</p>
+  <h1>RAFAY<br><span class="orange">FOOD CLUB</span></h1>
+  <p class="sub">Fresh taste. Quality food. Happiness in every bite.</p>
+  <a class="btn" href="https://wa.me/923059322225">Order on WhatsApp</a>
+ </div>
+</section>
+
+<section id="menu">
+ <h2>Our <span class="orange">Popular Menu</span></h2>
+ <p class="sub">Discover your favourites at Rafay Food Club.</p>
+ <div class="grid">
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=85" alt="Fresh pizza">
+   <div class="info"><h3>🍕 Pizza</h3><p class="sub">Delicious cheesy pizza.</p><span class="price">From Rs. 950</span></div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85" alt="Juicy burger">
+   <div class="info"><h3>🍔 Burgers</h3><p class="sub">Juicy, fresh and tasty.</p><span class="price">From Rs. 350</span></div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=85" alt="Crispy fries">
+   <div class="info"><h3>🍟 French Fries</h3><p class="sub">Golden crispy fries.</p><span class="price">From Rs. 200</span></div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=700&q=85" alt="Shawarma wrap">
+   <div class="info"><h3>🌯 Shawarma</h3><p class="sub">A tasty, satisfying wrap.</p><span class="price">From Rs. 300</span></div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=85" alt="Chocolate milkshake">
+   <div class="info"><h3>🥤 Shakes</h3><p class="sub">Cool and creamy shakes.</p><span class="price">From Rs. 250</span></div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=85" alt="Ice cream dessert">
+   <div class="info"><h3>🍨 Ice Cream</h3><p class="sub">A sweet ending to your meal.</p><span class="price">From Rs. 150</span></div>
+  </article>
+
+ </div>
+</section>
+
+<section id="deals">
+ <h2>🔥 Special <span class="orange">Deals</span></h2>
+ <p class="sub">More food. More savings. More happiness.</p>
+ <div class="grid">
+
+  <article class="card deal">
+   <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=85" alt="Pizza deal">
+   <div class="info"><h3>🍕 Pizza Deal</h3><p>1 Medium Pizza + Drink</p><p class="price">Rs. 1,150</p>
+   <a class="btn" href="https://wa.me/923059322225?text=I%20want%20to%20order%20the%20Pizza%20Deal">Order Deal</a></div>
+  </article>
+
+  <article class="card deal">
+   <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85" alt="Burger combo">
+   <div class="info"><h3>🍔 Burger Combo</h3><p>1 Burger + Fries + Drink</p><p class="price">Rs. 650</p>
+   <a class="btn" href="https://wa.me/923059322225?text=I%20want%20to%20order%20the%20Burger%20Combo">Order Deal</a></div>
+  </article>
+
+  <article class="card deal">
+   <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=85" alt="Fries combo">
+   <div class="info"><h3>🍟 Snack Deal</h3><p>Fries + Drink</p><p class="price">Rs. 400</p>
+   <a class="btn" href="https://wa.me/923059322225?text=I%20want%20to%20order%20the%20Snack%20Deal">Order Deal</a></div>
+  </article>
+
+  <article class="card deal">
+   <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=700&q=85" alt="Shawarma combo">
+   <div class="info"><h3>🌯 Shawarma Combo</h3><p>2 Shawarmas + Fries + Drink</p><p class="price">Rs. 700</p>
+   <a class="btn" href="https://wa.me/923059322225?text=I%20want%20to%20order%20the%20Shawarma%20Combo">Order Deal</a></div>
+  </article>
+
+ </div>
+</section>
+
+<section id="contact">
+ <h2>Order Your <span class="orange">Favourite Food</span></h2>
+ <p class="sub">Have a question or want to order? Contact us on WhatsApp.</p>
+ <a class="btn" href="https://wa.me/923059322225">WhatsApp: 0305-9322225</a>
+</section>
+</main>
+
+<footer>
+ <div class="logo">RAFAY FOOD CLUB</div>
+ <p>Good Food • Great Mood</p>
+ <p>Fresh Taste, Every Time!</p>
+ <small>© 2026 Rafay Food Club</small>
+</footer>
+
+</body>
+</html>
